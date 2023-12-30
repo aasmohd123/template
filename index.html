@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Template</title>
+    <link rel="stylesheet" href="css/above_section.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <img src="photos/law-removebg-preview.png" alt="law logo">
+                <h1>Just Law</h1>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviecs</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+            </ul>
+
+            <button id="con-but">Free Consultation</button>
+        </div>
+    </div>
+
+    <div class="above-container">
+        <div class="above-section">
+           <div class="text">
+            <h2>Profesional Lawyers</h2>
+            <h1>We Will Fight For You <br> As a Friend</h1>
+           </div>
+            <div class="contact-box">
+                <h2>Schedule a Free Consultation 24/7</h2>
+                <h1>01655.066.456</h1>
+                <div class="icon">
+                    <a href="https://www.youtube.com/watch?v=YpkJO_GrCo0?t=120s"><i class="fa fa-play fa-2x"></i></a>
+                </div>
+            </div>
+
+          
+        </div>
+
+       
+    </div>
+    
+
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var playIcon = document.querySelector(".contact-box .icon i");
+
+        playIcon.addEventListener("mouseover", function () {
+            // Add styles for mouse hover effect
+            playIcon.style.transform = "scale(1.2)";
+            playIcon.style.transition = "transform 0.3s ease";
+        });
+
+        playIcon.addEventListener("mouseout", function () {
+            // Remove styles when mouse leaves the icon
+            playIcon.style.transform = "scale(1)";
+            playIcon.style.backgroundColor = "white";
+        });
+
+        playIcon.addEventListener("click", function () {
+            // Add styles for click effect (you can customize this)
+            playIcon.style.backgroundColor = "lightgray";
+            window.href = 'www.'
+        });
+    });
+</script>
+</html>
